@@ -139,7 +139,7 @@ function ClientesList() {
               <td>{cliente.nif}</td>
               <td style={{ whiteSpace: 'nowrap' }}>
                 <button className="btn btn-dark btn-sm mr-2" ><i className='fa fa-eye' aria-hidden='true'></i></button>
-                <button className="btn btn-dark btn-sm mr-2" onClick={() => openDeleteModal(cliente.codcli)}><i className='fa fa-pencil' aria-hidden='true'></i></button>
+                <button className="btn btn-dark btn-sm mr-2" ><i className='fa fa-pencil' aria-hidden='true'></i></button>
                 <button className="btn btn-dark btn-sm" onClick={() => openDeleteModal(cliente.codcli)}><i className='fa fa-trash' aria-hidden='true'></i></button>
               </td>
             </tr>
